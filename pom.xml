@@ -12,6 +12,7 @@
 
     <modules>
         <module>fox-common</module>
+        <module>fox-mvc-config</module>
     </modules>
 
     <parent>
