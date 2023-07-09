@@ -27,7 +27,7 @@ public class CommonResponse<T> implements Serializable {
     /**
      * 泛型响应数据
      */
-    private T Date;
+    private T Data;
 
     public CommonResponse(Integer code, String message) {
         this.code = code;
