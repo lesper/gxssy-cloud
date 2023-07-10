@@ -14,6 +14,7 @@
         <module>fox-common</module>
         <module>fox-mvc-config</module>
         <module>fox-nacos-client</module>
+        <module>fox-admin</module>
     </modules>
 
     <parent>

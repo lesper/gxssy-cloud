@@ -14,7 +14,7 @@
     <packaging>jar</packaging>
 
     <!-- 模块名及描述信息 -->
-    <name>fox-common</name>
+    <name>fox-nacos-client</name>
     <description>注册中心客户端</description>
 
     <properties>
