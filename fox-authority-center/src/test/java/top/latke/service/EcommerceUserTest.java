@@ -33,4 +33,12 @@ public class EcommerceUserTest {
         log.info("save user: [{}]", JSON.toJSON(ecommerceUserDao.save(ecommerceUser)));
 
     }
+
+    @Test
+    public void findRecord(){
+
+        log.info("find user fox-admin: [{}]", JSON.toJSON(ecommerceUserDao.findByUsername("fox-admin")));
+        log.info("find user: [{}]", JSON.toJSON(ecommerceUserDao.findAll()));
+
+    }
 }
