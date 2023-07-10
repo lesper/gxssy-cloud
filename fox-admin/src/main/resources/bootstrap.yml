@@ -8,7 +8,7 @@ spring:
     name: fox-admin
   security:
     user:
-      name: fox-qinyi
+      name: fox-admin
       password: 88888888
   cloud:
     nacos:
@@ -19,7 +19,7 @@ spring:
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator
-          user.name: fox-qinyi
+          user.name: fox-admin
           user.password: 88888888
   thymeleaf:
     check-template: false

@@ -37,10 +37,10 @@
             <version>2.2.0</version>
         </dependency>
         <!-- 开启登录认证功能 -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-security</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
         <!-- 实现对 Java Mail 的自动化配置 -->
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.boot</groupId>-->
