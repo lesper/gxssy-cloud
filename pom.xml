@@ -15,6 +15,7 @@
         <module>fox-mvc-config</module>
         <module>fox-nacos-client</module>
         <module>fox-admin</module>
+        <module>fox-authority-center</module>
     </modules>
 
     <parent>

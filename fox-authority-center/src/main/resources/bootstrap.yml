@@ -1,0 +1,53 @@
+server:
+  port: 7001
+  servlet:
+    context-path: /fox-admin
+
+spring:
+  application:
+    name: fox-admin
+  security:
+    user:
+      name: fox-admin
+      password: 88888888
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 124.223.79.144:8848
+        namespace: b4dbe5d8-6c80-406d-9d86-96d556c89ac6
+        metadata:
+          management:
+            context-path: ${server.servlet.context-path}/actuator
+          user.name: fox-admin
+          user.password: 88888888
+  thymeleaf:
+    check-template: false
+    check-template-location: false
+  # 被监控的应用状态变更为 DOWN、OFFLINE、UNKNOWN 时, 会自动发出告警: 实例的状态、原因、实例地址等信息
+  # 需要在 pom.xml 文件中添加 spring-boot-starter-mail 依赖
+  # 配置发送告警的邮箱服务器
+  # 但是, 这个要能连接上, 否则会报错
+#    mail:
+#      host: mail.88.com
+#      username: latkes@88.com
+#      password: Sunny199601
+#      default-encoding: UTF-8
+##   监控告警通知
+#  boot:
+#    admin:
+#      notify:
+#        mail:
+#          from: ${spring.mail.username}
+#          to: 694043837@qq.com
+#          cc: 694043837@qq.com
+
+# 暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'  # 需要开放的端点。默认值只打开 health 和 info 两个端点。通过设置 *, 可以开放所有端点
+  endpoint:
+    health:
+      show-details: always
