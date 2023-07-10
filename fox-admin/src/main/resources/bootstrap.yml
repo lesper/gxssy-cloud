@@ -28,19 +28,19 @@ spring:
   # 需要在 pom.xml 文件中添加 spring-boot-starter-mail 依赖
   # 配置发送告警的邮箱服务器
   # 但是, 这个要能连接上, 否则会报错
-  #  mail:
-  #    host: qinyi.imooc.com
-  #    username: qinyi@imooc.com
-  #    password: QinyiZhang
-  #    default-encoding: UTF-8
-  # 监控告警通知
+#    mail:
+#      host: mail.88.com
+#      username: latkes@88.com
+#      password: Sunny199601
+#      default-encoding: UTF-8
+##   监控告警通知
 #  boot:
 #    admin:
 #      notify:
 #        mail:
 #          from: ${spring.mail.username}
-#          to: qinyi@imooc.com
-#          cc: qinyi@imooc.com
+#          to: 694043837@qq.com
+#          cc: 694043837@qq.com
 
 # 暴露端点
 management:
