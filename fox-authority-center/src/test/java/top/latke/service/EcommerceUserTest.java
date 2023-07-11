@@ -14,7 +14,6 @@ import top.latke.entity.EcommerceUser;
 /**
  * EcommerceUser 相关测试
  */
-
 @Slf4j
 @SpringBootTest
 @RunWith(SpringRunner.class)
