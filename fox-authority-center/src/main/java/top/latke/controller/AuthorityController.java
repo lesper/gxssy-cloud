@@ -49,7 +49,7 @@ public class AuthorityController {
     @PostMapping("register")
     public JwtToken register(@RequestBody UsernameAndPassword usernameAndPassword) throws Exception{
         log.info("method-register request to get token with param: [{}]", JSON.toJSONString(usernameAndPassword));
-        return new JwtToken(ijwtService.generateToken(usernameAndPassword.getUsername(),usernameAndPassword.getPassword()));
+        return new JwtToken(ijwtService.registerUserAndGenerateToken(usernameAndPassword));
     }
 
 }

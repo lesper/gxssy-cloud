@@ -78,14 +78,15 @@ public class JWTServiceImpl implements IJWTService {
 
         if (null != ecommerceUser) {
             log.error("username is registered: [{}]",ecommerceUser.getUsername());
+            return null;
         }
 
         EcommerceUser newEcommerceUser = new EcommerceUser();
         newEcommerceUser.setUsername(usernameAndPassword.getUsername());
         newEcommerceUser.setPassword(usernameAndPassword.getPassword());
-        ecommerceUser.setExtraInfo("{}");
+        newEcommerceUser.setExtraInfo("{}");
 
-        newEcommerceUser = ecommerceUserDao.save(ecommerceUser);
+        newEcommerceUser = ecommerceUserDao.save(newEcommerceUser);
         log.error("register user success: [{}],[{}]",newEcommerceUser.getUsername(),newEcommerceUser.getId());
 
         return generateToken(newEcommerceUser.getUsername(),newEcommerceUser.getPassword());

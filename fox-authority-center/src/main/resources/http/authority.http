@@ -1,0 +1,17 @@
+### 获取 Token
+POST http://127.0.0.1:7000/fox-authority-center/authority/token
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+### 注册并获取 Token
+POST http://127.0.0.1:7000/fox-authority-center/authority/register
+Content-Type: application/json
+
+{
+  "username": "guest",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
