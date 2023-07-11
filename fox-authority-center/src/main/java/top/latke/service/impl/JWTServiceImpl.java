@@ -44,7 +44,7 @@ public class JWTServiceImpl implements IJWTService {
 
     @Override
     public String generateToken(String username, String password) throws Exception {
-        return null;
+        return generateToken(username,password,0);
     }
 
     @Override
@@ -74,7 +74,21 @@ public class JWTServiceImpl implements IJWTService {
 
     @Override
     public String registerUserAndGenerateToken(UsernameAndPassword usernameAndPassword) throws Exception {
-        return null;
+        EcommerceUser ecommerceUser = ecommerceUserDao.findByUsername(usernameAndPassword.getUsername());
+
+        if (null != ecommerceUser) {
+            log.error("username is registered: [{}]",ecommerceUser.getUsername());
+        }
+
+        EcommerceUser newEcommerceUser = new EcommerceUser();
+        newEcommerceUser.setUsername(usernameAndPassword.getUsername());
+        newEcommerceUser.setPassword(usernameAndPassword.getPassword());
+        ecommerceUser.setExtraInfo("{}");
+
+        newEcommerceUser = ecommerceUserDao.save(ecommerceUser);
+        log.error("register user success: [{}],[{}]",newEcommerceUser.getUsername(),newEcommerceUser.getId());
+
+        return generateToken(newEcommerceUser.getUsername(),newEcommerceUser.getPassword());
     }
 
     /**
