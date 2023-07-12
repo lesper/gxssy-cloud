@@ -1,19 +1,16 @@
 package top.latke.config;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.cloud.endpoint.event.RefreshEvent;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
 import org.springframework.cloud.gateway.route.RouteDefinition;
 import org.springframework.cloud.gateway.route.RouteDefinitionLocator;
 import org.springframework.cloud.gateway.route.RouteDefinitionWriter;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
-import org.springframework.context.Lifecycle;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import reactor.core.publisher.Mono;
 
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -104,7 +101,7 @@ public class DynamicRouteServiceImpl implements ApplicationEventPublisherAware {
 
     /**
      * 更新路由配置： 删除 + 新增
-     * @param id
+     * @param routeDefinition
      * @return
      */
     private String updateByRouteDefinition(RouteDefinition routeDefinition) {
