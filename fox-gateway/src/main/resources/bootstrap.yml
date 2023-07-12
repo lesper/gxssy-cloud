@@ -41,7 +41,7 @@ nacos:
     route:
       config:
         data-id: fox-gateway-router
-        group: fox
+        group: fox-gateway
 
 # 暴露端点
 management:
