@@ -52,8 +52,8 @@ public class PredicateTest {
 
     @Test
     public void predicateIsEqualTest(){
-        Predicate<String> letterStartWith = s -> Predicate.isEqual("gateway").test(s);
-        MICRO_SERVICE.stream().filter(letterStartWith).forEach(System.out::println);
+        Predicate<String> letterIsEqual = s -> Predicate.isEqual("gateway").test(s);
+        MICRO_SERVICE.stream().filter(letterIsEqual).forEach(System.out::println);
     }
 
 }
