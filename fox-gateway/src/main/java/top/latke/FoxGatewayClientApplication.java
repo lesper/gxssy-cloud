@@ -9,9 +9,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class FoxNacosClientApplication {
+public class FoxGatewayClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FoxNacosClientApplication.class,args);
+        SpringApplication.run(FoxGatewayClientApplication.class,args);
     }
 
 }
