@@ -1,4 +1,4 @@
-package top.latke.filter.factory;
+package top.latke.filter;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
@@ -37,7 +37,7 @@ public class GlobalCacheRequestBodyFilter implements GlobalFilter, Ordered {
             //defer just 皆是创建数据源,得到当前数据源的副本
             Flux<DataBuffer> cachedFlux = Flux.defer(() ->
                     Flux.just(dataBuffer.slice(0, dataBuffer.readableByteCount())));
-            //重新包装 ServerHttpRequest,重写 getBody方法，能够返回请求数据
+            //重新包装 ServerHttpRequest,重写 getBody 方法，能够返回请求数据
             ServerHttpRequest mutatedRequest = new ServerHttpRequestDecorator(exchange.getRequest()) {
                 @Override
                 public Flux<DataBuffer> getBody() {
@@ -51,6 +51,6 @@ public class GlobalCacheRequestBodyFilter implements GlobalFilter, Ordered {
 
     @Override
     public int getOrder() {
-        return 0;
+        return HIGHEST_PRECEDENCE + 1;
     }
 }
