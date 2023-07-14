@@ -7,8 +7,8 @@ Content-Type: application/json
   "password": "e10adc3949ba59abbe56e057f20f883e"
 }
 
-### 登录-error
-POST 127.0.0.1:9001/fox/login
+### 注册
+POST 127.0.0.1:9001/fox/register
 Content-Type: application/json
 
 {
