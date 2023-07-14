@@ -7,16 +7,11 @@ import top.latke.filter.HeaderTokenGatewayFilter;
 
 /**
  * 使 HeaderTokenGatewayFilterFactory 局部过滤器生效,命名必须是 prefix + GatewayFilterFactory，否则会发生找不到的情况
- * 	"filters": [{
- * 			"name": "HeaderToken"
- *                },
- *        {
- * 			"name": "StripPrefix",
- * 			"args": {
- * 				"parts": "1"
- *            }
- *        }
- * 	]
+ * 自定义过滤器才需要经过 AbstractGatewayFilterFactory 进行注册生效，而全局过滤器 GlobalFilter 不需要，会直接生效
+ * 	<blockquote><pre>"filters": [{
+ * 	"name": "HeaderToken"
+ * 	 }]
+ * 	</pre></blockquote>
  */
 @Component
 public class HeaderTokenGatewayFilterFactory extends AbstractGatewayFilterFactory<Object> {
