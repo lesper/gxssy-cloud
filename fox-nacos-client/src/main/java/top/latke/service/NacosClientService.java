@@ -1,7 +1,6 @@
 package top.latke.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
@@ -19,7 +18,7 @@ public class NacosClientService {
     }
 
     public List<ServiceInstance> getNacosClientInfo(String serviceId) {
-        log.info("request nacos client info [{]]",serviceId);
+        log.info("request nacos client info [{}]",serviceId);
         return discoveryClient.getInstances(serviceId);
     }
 }
