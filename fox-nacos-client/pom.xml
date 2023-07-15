@@ -35,6 +35,11 @@
             <artifactId>fox-mvc-config</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- 链路跟踪 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
 <!--        &lt;!&ndash; 数据绑定 &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
