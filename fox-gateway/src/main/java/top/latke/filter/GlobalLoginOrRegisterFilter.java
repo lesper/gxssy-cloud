@@ -89,11 +89,6 @@ public class GlobalLoginOrRegisterFilter implements GlobalFilter, Ordered {
         String token = headers.getFirst(CommonConstant.JWT_USER_INFO_KEY);
         LoginUserInfo loginUserInfo = null;
 
-        //暴露 Gateway actuator 端点
-        if (serverHttpRequest.getURI().getPath().contains("actuator")) {
-            return chain.filter(exchange);
-        }
-
         try {
             loginUserInfo = TokenParseUtil.parseUserInfoFromToken(token);
         }catch (Exception ex) {

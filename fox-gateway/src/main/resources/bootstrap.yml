@@ -14,7 +14,7 @@ spring:
         namespace: b4dbe5d8-6c80-406d-9d86-96d556c89ac6
         metadata:
           management:
-            context-path: ${server.servlet.context-path}/fox-gateway/actuator
+            context-path: ${server.servlet.context-path}/actuator
     # 静态路由
   #    gateway:
   #      routes:
