@@ -41,7 +41,7 @@ spring:
       auto-commit: true
       pool-name: FoxHikariCP
   kafka:
-    bootstrap-servers: 127.0.0.1:9092
+    bootstrap-servers: 124.223.79.144:9092
     producer:
       retries: 3
     consumer:
@@ -49,7 +49,7 @@ spring:
   zipkin:
     sender:
       type: kafka # 默认是 web
-    base-url: http://127.0.0.1:9411/
+    base-url: http://124.223.79.144:9411/
 
 # 暴露端点
 management:
