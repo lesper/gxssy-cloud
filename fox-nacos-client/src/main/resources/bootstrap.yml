@@ -17,6 +17,18 @@ spring:
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator
+  kafka:
+    bootstrap-servers: 124.223.79.144:9092
+    producer:
+      retries: 3
+    consumer:
+      auto-offset-reset: latest
+  zipkin:
+    sender:
+      type: kafka # 默认是 web
+    base-url: http://124.223.79.144:9411/
+  main:
+    allow-bean-definition-overriding: true  # 因为将来会引入很多依赖, 难免有重名的 bean
 # 暴露端点
 management:
   endpoints:

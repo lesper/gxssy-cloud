@@ -1,0 +1,4 @@
+kafka java.net.UnknownHostException: 10_0_16_8
+#fix:
+server.properties目录下修改ip地址
+advertised.listeners=PLAINTEXT://124.223.79.144:9092
