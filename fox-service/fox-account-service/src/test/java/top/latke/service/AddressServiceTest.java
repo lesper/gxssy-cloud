@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import top.latke.account.AddressInfo;
+import top.latke.common.TableId;
 
 import java.util.Collections;
 
@@ -41,6 +42,13 @@ public class AddressServiceTest extends BaseTest {
 
     @Test
     public void testGetAddressInfoById() {
-        log.info("test get current user address info: [{}]", JSON.toJSONString(addressService.getAddressInfoById(10L)));
+        log.info("test get byId current user address info: [{}]", JSON.toJSONString(addressService.getAddressInfoById(10L)));
+    }
+
+    @Test
+    public void testGetAddressInfoByTableId() {
+        log.info("test get byTableId current user address info: [{}]", JSON.toJSONString(
+                addressService.getAddressInfoByTableId(new TableId(Collections.singletonList(new TableId.Id(10L)))))
+        );
     }
 }
