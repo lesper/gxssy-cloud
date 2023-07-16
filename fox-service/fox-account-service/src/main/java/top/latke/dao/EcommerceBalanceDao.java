@@ -8,6 +8,6 @@ import top.latke.entity.EcommerceBalance;
  */
 public interface EcommerceBalanceDao extends JpaRepository<EcommerceBalance,Long> {
 
-    EcommerceBalance findByUserId(String userId);
+    EcommerceBalance findByUserId(Long userId);
 
 }
