@@ -15,6 +15,7 @@
 
     <modules>
         <module>fox-service-config</module>
+        <module>fox-account-service</module>
     </modules>
 
     <name>e-commerce-service</name>
