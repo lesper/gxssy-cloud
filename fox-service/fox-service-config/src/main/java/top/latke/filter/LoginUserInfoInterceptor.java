@@ -1,6 +1,7 @@
 package top.latke.filter;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -20,6 +21,12 @@ public class LoginUserInfoInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+
+        //部分请求不需要带有身份信息，白名单检查
+        if (checkWhilteListUrl(request.getRequestURI())) {
+            return true;
+        }
+
         //先尝试从 http header 中拿到 Token
         String token = request.getHeader(CommonConstant.JWT_USER_INFO_KEY);
         LoginUserInfo loginUserInfo = null;
@@ -60,5 +67,14 @@ public class LoginUserInfoInterceptor implements HandlerInterceptor {
         if (null != AccessContext.getLoginUserInfo()) {
             AccessContext.clearLoginUserInfo();
         }
+    }
+
+    /**
+     * 校验是否是白名单接口
+     * @param url
+     * @return
+     */
+    private boolean checkWhilteListUrl(String url) {
+        return StringUtils.containsAny(url,"springfox","swagger","v2","webjars","doc.html");
     }
 }
