@@ -7,6 +7,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * 用户账户微服务启动入口
+ * 1.http://localhost:8003/fox-account-service/swagger-ui.html
+ * 2.http://localhost:8003/fox-account-service/doc.html
  */
 @EnableJpaAuditing
 @SpringBootApplication
