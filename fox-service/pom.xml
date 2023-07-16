@@ -16,6 +16,7 @@
     <modules>
         <module>fox-service-config</module>
         <module>fox-account-service</module>
+        <module>fox-service-sdk</module>
     </modules>
 
     <name>e-commerce-service</name>
