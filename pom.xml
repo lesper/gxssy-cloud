@@ -17,6 +17,7 @@
         <module>fox-admin</module>
         <module>fox-authority-center</module>
         <module>fox-gateway</module>
+        <module>fox-service</module>
     </modules>
 
     <parent>
