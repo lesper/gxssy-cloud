@@ -36,7 +36,7 @@ public class AddressController {
     }
 
     @ApiOperation(value = "获取用户地址信息",notes = "通过 id 获取用户地址信息",httpMethod = "GET")
-    @PostMapping("/address-info")
+    @GetMapping ("/address-info")
     public AddressInfo getAddressInfoById(@RequestParam Long id) {
         return addressService.getAddressInfoById(id);
     }

@@ -1,0 +1,39 @@
+### 创建用户地址信息
+POST http://127.0.0.1:9001/fox/fox-account-service/address/create-address
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJkMzdiMmQxOC1jOGRlLTRkZjUtYjE4ZS1lYmZlMDNjYjAwY2QiLCJleHAiOjE2ODk1MjMyMDB9.oMSfswGPU2_jB41bpiorp73ea4qVd0q1XLqFEz7h4Y5bONJh2X0Qi-bn-UM_PbjQzi4VZiV0p6uV4wfJgE7IFF9ztyavMY0Lc7lESSHhl6AJ8xOa-ctRoISqej3b5qxJp2sS-wEtNNAAijN6NidOu2dmxvUMCH7WXuzqWtn-yx4Tfdlv-pmLT-XUGlqdDIrIr1wOfZTerPe8QD6Gip7og7940C7X7LzZ6NYeo2bp_uyLY7qD7mmqFr3Y8Fq9yaIQzTo5pXy041fa3-MWQmwF08QF7mr3LiwC87T60CGAYxYzRZd86Rz6rq35d5XA8M6dZQHCnpv-qlHC7Sk7Tpp1bQ
+
+{
+  "userId": 10,
+  "addressItems": [
+    {
+      "username": "Qinyi",
+      "phone": "166666666666",
+      "province": "湖北省",
+      "city": "武汉市",
+      "addressDetail": "洪山区光谷科技港"
+    }
+  ]
+}
+
+### 当前登录用户地址信息
+GET http://127.0.0.1:9001/fox/fox-account-service/address/current-address
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJkMzdiMmQxOC1jOGRlLTRkZjUtYjE4ZS1lYmZlMDNjYjAwY2QiLCJleHAiOjE2ODk1MjMyMDB9.oMSfswGPU2_jB41bpiorp73ea4qVd0q1XLqFEz7h4Y5bONJh2X0Qi-bn-UM_PbjQzi4VZiV0p6uV4wfJgE7IFF9ztyavMY0Lc7lESSHhl6AJ8xOa-ctRoISqej3b5qxJp2sS-wEtNNAAijN6NidOu2dmxvUMCH7WXuzqWtn-yx4Tfdlv-pmLT-XUGlqdDIrIr1wOfZTerPe8QD6Gip7og7940C7X7LzZ6NYeo2bp_uyLY7qD7mmqFr3Y8Fq9yaIQzTo5pXy041fa3-MWQmwF08QF7mr3LiwC87T60CGAYxYzRZd86Rz6rq35d5XA8M6dZQHCnpv-qlHC7Sk7Tpp1bQ
+
+### 通过id获取用户地址信息
+GET http://127.0.0.1:9001/fox/fox-account-service/address/address-info?id=10
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJkMzdiMmQxOC1jOGRlLTRkZjUtYjE4ZS1lYmZlMDNjYjAwY2QiLCJleHAiOjE2ODk1MjMyMDB9.oMSfswGPU2_jB41bpiorp73ea4qVd0q1XLqFEz7h4Y5bONJh2X0Qi-bn-UM_PbjQzi4VZiV0p6uV4wfJgE7IFF9ztyavMY0Lc7lESSHhl6AJ8xOa-ctRoISqej3b5qxJp2sS-wEtNNAAijN6NidOu2dmxvUMCH7WXuzqWtn-yx4Tfdlv-pmLT-XUGlqdDIrIr1wOfZTerPe8QD6Gip7og7940C7X7LzZ6NYeo2bp_uyLY7qD7mmqFr3Y8Fq9yaIQzTo5pXy041fa3-MWQmwF08QF7mr3LiwC87T60CGAYxYzRZd86Rz6rq35d5XA8M6dZQHCnpv-qlHC7Sk7Tpp1bQ
+
+### 通过 TableId 获取用户地址信息
+POST http://127.0.0.1:9001/fox/fox-account-service/address/address-info-by-table-id
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJkMzdiMmQxOC1jOGRlLTRkZjUtYjE4ZS1lYmZlMDNjYjAwY2QiLCJleHAiOjE2ODk1MjMyMDB9.oMSfswGPU2_jB41bpiorp73ea4qVd0q1XLqFEz7h4Y5bONJh2X0Qi-bn-UM_PbjQzi4VZiV0p6uV4wfJgE7IFF9ztyavMY0Lc7lESSHhl6AJ8xOa-ctRoISqej3b5qxJp2sS-wEtNNAAijN6NidOu2dmxvUMCH7WXuzqWtn-yx4Tfdlv-pmLT-XUGlqdDIrIr1wOfZTerPe8QD6Gip7og7940C7X7LzZ6NYeo2bp_uyLY7qD7mmqFr3Y8Fq9yaIQzTo5pXy041fa3-MWQmwF08QF7mr3LiwC87T60CGAYxYzRZd86Rz6rq35d5XA8M6dZQHCnpv-qlHC7Sk7Tpp1bQ
+
+{
+  "ids": [
+    {"id": 10},
+    {"id": 11}
+  ]
+}
