@@ -1,0 +1,13 @@
+package top.latke.constant;
+
+/**
+ * 商品常量信息
+ */
+public class GoodsConstant {
+
+    /**
+     * redis key
+     */
+    public static final  String ECOMMERCE_GOODS_DICT_KEY = "ecommerce:goods:dict:20230717";
+
+}
