@@ -7,7 +7,7 @@ import javax.persistence.AttributeConverter;
 /**
  * 商品品牌枚举枚举属性转换器
  */
-public class BrandCategoryConverter implements AttributeConverter<BrandCategory, Integer> {
+public class BrandCategoryConverter implements AttributeConverter<BrandCategory, String> {
 
 
     /**
@@ -17,7 +17,7 @@ public class BrandCategoryConverter implements AttributeConverter<BrandCategory,
      * @return
      */
     @Override
-    public Integer convertToDatabaseColumn(BrandCategory brandCategory) {
+    public String convertToDatabaseColumn(BrandCategory brandCategory) {
         return brandCategory.getCode();
     }
 
@@ -28,7 +28,7 @@ public class BrandCategoryConverter implements AttributeConverter<BrandCategory,
      * @return
      */
     @Override
-    public BrandCategory convertToEntityAttribute(Integer status) {
+    public BrandCategory convertToEntityAttribute(String status) {
         return BrandCategory.of(status);
     }
 }
