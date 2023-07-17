@@ -7,6 +7,7 @@ import org.apache.commons.lang3.time.StopWatch;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import top.latke.constant.GoodsConstant;
 import top.latke.dao.EcommerceGoodsDao;
@@ -14,7 +15,6 @@ import top.latke.entity.EcommerceGoods;
 import top.latke.goods.GoodsInfo;
 import top.latke.goods.SimpleGoodsInfo;
 
-import javax.transaction.Transactional;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
