@@ -71,7 +71,12 @@ public class GoodsServiceImpl implements IGoodsService {
     @Override
     public List<SimpleGoodsInfo> getSimpleGoodsInfoByTableId(TableId tableId) {
         List<Object> goodIds = tableId.getIds().stream().map(id -> id.getId().toString()).collect(Collectors.toList());
-        List<Object> cachedSimpleGoodsInfos = stringRedisTemplate.opsForHash().multiGet(GoodsConstant.ECOMMERCE_GOODS_DICT_KEY, goodIds);
+        List<Object> cachedSimpleGoodsInfos = stringRedisTemplate.opsForHash()
+                .multiGet(GoodsConstant.ECOMMERCE_GOODS_DICT_KEY, goodIds)
+                .stream()
+                .filter(Objects::nonNull)
+                .collect(Collectors.toList());
+                ;
         if (CollectionUtils.isNotEmpty(cachedSimpleGoodsInfos)) {
             if (cachedSimpleGoodsInfos.size() == goodIds.size()) {
                 log.info("get simple goods info by ids (from cache): [{}]", JSON.toJSONString(goodIds));

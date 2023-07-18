@@ -3,21 +3,21 @@
   <component name="fastRequestCurrentParamGroup">
     <option name="bodyParamMap">
       <map>
-        <entry key="usernameAndPassword">
+        <entry key="goodsInfos">
           <value>
             <Object />
           </value>
         </entry>
       </map>
     </option>
-    <option name="className" value="top.latke.controller.AuthorityController" />
+    <option name="className" value="top.latke.controller.AsyncGoodsController" />
     <option name="filePath" value="" />
-    <option name="method" value="token" />
-    <option name="methodDescription" value="从授权中心获取 Token，且返回信息中没有统一响应的包装" />
+    <option name="method" value="importGoods" />
+    <option name="methodDescription" value="导入商品" />
     <option name="methodType" value="POST" />
-    <option name="module" value="fox-authority-center" />
-    <option name="originUrl" value="/authority/token" />
-    <option name="returnDocument" value="{&quot;token&quot;:&quot;No comment,Type =String&quot;}" />
-    <option name="url" value="/authority/token" />
+    <option name="module" value="fox-good-service" />
+    <option name="originUrl" value="/async-goods/import-goods" />
+    <option name="returnDocument" value="{&quot;taskId&quot;:&quot;异步任务 id&quot;,&quot;status&quot;:&quot;异步任务执行状态&quot;,&quot;startTime&quot;:&quot;异步任务开始时间&quot;,&quot;endTime&quot;:&quot;异步任务结束时间&quot;,&quot;totalTime&quot;:&quot;异步任务总耗时&quot;}" />
+    <option name="url" value="/async-goods/import-goods" />
   </component>
 </project>
