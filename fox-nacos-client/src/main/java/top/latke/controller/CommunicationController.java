@@ -38,4 +38,9 @@ public class CommunicationController {
     public JwtToken getTokenFromAuthorityServiceByRibbon(@RequestBody UsernameAndPassword usernameAndPassword) {
         return useRibbonService.getTokenFromAuthorityServiceByRibbon(usernameAndPassword);
     }
+
+    @PostMapping("/think-in-ribbon")
+    public JwtToken thinkInRibbon(@RequestBody UsernameAndPassword usernameAndPassword) {
+        return useRibbonService.thinkInRibbon(usernameAndPassword);
+    }
 }
