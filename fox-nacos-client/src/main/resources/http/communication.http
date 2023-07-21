@@ -16,3 +16,12 @@ Content-Type: application/json
   "username": "admin",
   "password": "e10adc3949ba59abbe56e057f20f883e"
 }
+
+### ribbon
+POST http://127.0.0.1:8000/fox-nacos-client/communication/ribbon
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
