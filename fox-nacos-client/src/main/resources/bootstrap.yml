@@ -35,6 +35,26 @@ spring:
     base-url: http://124.223.79.144:9411/
   main:
     allow-bean-definition-overriding: true  # 因为将来会引入很多依赖, 难免有重名的 bean
+
+# Feign 的相关配置
+feign:
+  # feign 开启 gzip 压缩
+  compression:
+    request:
+      enabled: true
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 1024
+    response:
+      enabled: true
+  # 禁用默认的 http, 启用 okhttp
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  # OpenFeign 集成 Hystrix
+#  hystrix:
+#    enabled: true
+
 # 暴露端点
 management:
   endpoints:
