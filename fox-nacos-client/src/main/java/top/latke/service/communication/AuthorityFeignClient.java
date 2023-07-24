@@ -4,13 +4,14 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import top.latke.service.communication.hystrix.AuthorityFeignClientFallback;
 import top.latke.vo.JwtToken;
 import top.latke.vo.UsernameAndPassword;
 
 /**
  * 与 Authority 通信的 Feign Client 接口定义
  */
-@FeignClient(contextId = "AuthorityFeignClient",value = "fox-authority-center")
+@FeignClient(contextId = "AuthorityFeignClient",value = "fox-authority-center",fallback = AuthorityFeignClientFallback.class)
 public interface AuthorityFeignClient {
 
     /**

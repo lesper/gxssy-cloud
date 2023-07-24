@@ -1,3 +1,19 @@
+POST http://127.0.0.1:8000/fox-nacos-client/communication/token-by-feign
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-25T000030.200.json
+
+###
+
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/request-merge-annotation
 Content-Type: application/json
 Connection: Keep-Alive
@@ -682,29 +698,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 }
 
 <> 2023-07-18T153959.503.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
-Content-Type: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
-Content-Length: 73
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "ids": [
-    {
-      "id": 10
-    },
-    {
-      "id": 12
-    }
-  ]
-}
-
-<> 2023-07-18T153957.503.json
 
 ###
 
