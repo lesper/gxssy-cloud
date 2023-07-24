@@ -10,10 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import rx.Observable;
 import rx.Observer;
 import top.latke.service.NacosClientService;
-import top.latke.service.hystrix.CacheHystrixCommand;
-import top.latke.service.hystrix.NacosClientHystrixCommand;
-import top.latke.service.hystrix.NacosClientHystrixObservableCommand;
-import top.latke.service.hystrix.UseHystrixCommandAndAnnotation;
+import top.latke.service.hystrix.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,9 +29,12 @@ public class HystrixController {
 
     private final NacosClientService nacosClientService;
 
-    public HystrixController(UseHystrixCommandAndAnnotation useHystrixCommandAndAnnotation, NacosClientService nacosClientService) {
+    private final CacheHystrixCommandAnnotation cacheHystrixCommandAnnotation;
+
+    public HystrixController(UseHystrixCommandAndAnnotation useHystrixCommandAndAnnotation, NacosClientService nacosClientService, CacheHystrixCommandAnnotation cacheHystrixCommandAnnotation) {
         this.useHystrixCommandAndAnnotation = useHystrixCommandAndAnnotation;
         this.nacosClientService = nacosClientService;
+        this.cacheHystrixCommandAnnotation = cacheHystrixCommandAnnotation;
     }
 
     @GetMapping("hystrix-command-annotation")
@@ -131,5 +131,44 @@ public class HystrixController {
         List<ServiceInstance> execute3 = cacheHystrixCommand3.execute();
         List<ServiceInstance> execute4 = cacheHystrixCommand4.execute();
         log.info("result3,result4:[{}],[{}]",JSON.toJSONString(execute3),JSON.toJSONString(execute4));
+    }
+
+    @GetMapping("/cache-annotation-01")
+    public List<ServiceInstance> useCacheByAnnotation01(@RequestParam String serviceId) {
+        log.info("use cache01 by useCacheByAnnotation01(Controller): [{}]",serviceId);
+        List<ServiceInstance> result01 = cacheHystrixCommandAnnotation.useCacheByAnnotation01(serviceId);
+        List<ServiceInstance> result02 = cacheHystrixCommandAnnotation.useCacheByAnnotation01(serviceId);
+
+        cacheHystrixCommandAnnotation.flushCacheByAnnotation01(serviceId);
+
+        List<ServiceInstance> result03 = cacheHystrixCommandAnnotation.useCacheByAnnotation01(serviceId);
+        List<ServiceInstance> result04 = cacheHystrixCommandAnnotation.useCacheByAnnotation01(serviceId);
+        return result04;
+    }
+
+    @GetMapping("/cache-annotation-02")
+    public List<ServiceInstance> useCacheByAnnotation02(@RequestParam String serviceId) {
+        log.info("use cache02 by useCacheByAnnotation02(Controller): [{}]",serviceId);
+        List<ServiceInstance> result01 = cacheHystrixCommandAnnotation.useCacheByAnnotation02(serviceId);
+        List<ServiceInstance> result02 = cacheHystrixCommandAnnotation.useCacheByAnnotation02(serviceId);
+
+        cacheHystrixCommandAnnotation.flushCacheByAnnotation02(serviceId);
+
+        List<ServiceInstance> result03 = cacheHystrixCommandAnnotation.useCacheByAnnotation02(serviceId);
+        List<ServiceInstance> result04 = cacheHystrixCommandAnnotation.useCacheByAnnotation02(serviceId);
+        return result04;
+    }
+
+    @GetMapping("/cache-annotation-03")
+    public List<ServiceInstance> useCacheByAnnotation03(@RequestParam String serviceId) {
+        log.info("use cache03 by useCacheByAnnotation03(Controller): [{}]",serviceId);
+        List<ServiceInstance> result01 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
+        List<ServiceInstance> result02 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
+
+        cacheHystrixCommandAnnotation.flushCacheByAnnotation03(serviceId);
+
+        List<ServiceInstance> result03 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
+        List<ServiceInstance> result04 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
+        return result04;
     }
 }

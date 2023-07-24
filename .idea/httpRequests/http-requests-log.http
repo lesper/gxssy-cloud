@@ -1,0 +1,749 @@
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-annotation-03?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T225428.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-annotation-02?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T225416.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-annotation-01?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T225148.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T155905.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T155821.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T155459.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T155028.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T154844.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T154332.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T154128.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T153923.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T153908.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T153756.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T153612.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T153049.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T152627.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T152425.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T152119.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T152109.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T152010.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T151741.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T151720.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-observable-command?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-24T143013.200.json
+
+###
+
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-command-annotation?serviceId=fox-nacos-client
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-22T192114.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-command-annotation?serviceId=fox-nacos-client
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-22T192106.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/thinking-by-feign
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T152647.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/token-by-feign
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T142833.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/token-by-feign
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T142708.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/think-in-ribbon
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T012921.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/think-in-ribbon
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T012751.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/ribbon
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T011143.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/ribbon
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-22T011116.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/rest-template-load-balancer
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-21T214944.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/rest-template
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-21T214929.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/rest-template
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-21T214802.200.json
+
+###
+
+POST http://127.0.0.1:8000/fox-nacos-client/communication/rest-template
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "admin",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-07-21T214742.200.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154755.200.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154157.200.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154019.200.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154011.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154010.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154009.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154002.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154001.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T154000.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T153959.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T153957.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T153953.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T153951.503.json
+
+###
+
+POST http://127.0.0.1:9001/fox/fox-goods-service/goods/simple-goods-info
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "ids": [
+    {
+      "id": 10
+    },
+    {
+      "id": 12
+    }
+  ]
+}
+
+<> 2023-07-18T153949.503.json
+
+###
+
