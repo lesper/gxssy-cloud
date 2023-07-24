@@ -18,6 +18,7 @@
         <module>fox-authority-center</module>
         <module>fox-gateway</module>
         <module>fox-service</module>
+        <module>fox-hystrix-dashboard</module>
     </modules>
 
     <parent>
