@@ -67,7 +67,7 @@ public class HystrixRequestContextServletFilter implements Filter {
             HystrixPlugins.getInstance().registerEventNotifier(eventNotifier);
             HystrixPlugins.getInstance().registerMetricsPublisher(metricsPublisher);
             HystrixPlugins.getInstance().registerPropertiesStrategy(propertiesStrategy);
-            log.info("config hystrix concurrency strategy succes");
+            log.info("config hystrix concurrency strategy success");
 
         }catch (Exception ex) {
             log.error("Failed to register Hystrix Concurrency Strategy: [{}]",ex.getMessage(),ex);
