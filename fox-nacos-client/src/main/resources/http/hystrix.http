@@ -25,3 +25,8 @@ Content-Type: application/json
 ### cache-annotation-03
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-annotation-03?serviceId=fox-nacos-client
 Content-Type: application/json
+
+### request-merge
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/request-merge
+Content-Type: application/json
+

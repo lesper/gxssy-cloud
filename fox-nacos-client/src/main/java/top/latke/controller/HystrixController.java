@@ -11,6 +11,7 @@ import rx.Observable;
 import rx.Observer;
 import top.latke.service.NacosClientService;
 import top.latke.service.hystrix.*;
+import top.latke.service.hystrix.request_merge.NacosClientCollapseCommand;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -170,5 +171,31 @@ public class HystrixController {
         List<ServiceInstance> result03 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
         List<ServiceInstance> result04 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
         return result04;
+    }
+
+    /**
+     * 编程方式实现请求合并
+     */
+    @GetMapping("/request-merge")
+    public void requestMerge() throws Exception{
+        //前三个请求会被合并
+        NacosClientCollapseCommand clientCollapseCommand01 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client1");
+        NacosClientCollapseCommand clientCollapseCommand02 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client2");
+        NacosClientCollapseCommand clientCollapseCommand03 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client3");
+
+        Future<List<ServiceInstance>> future01 = clientCollapseCommand01.queue();
+        Future<List<ServiceInstance>> future02 = clientCollapseCommand02.queue();
+        Future<List<ServiceInstance>> future03 = clientCollapseCommand03.queue();
+
+        future01.get();
+        future02.get();
+        future03.get();
+
+        Thread.sleep(2000);
+
+        //过了合并的时间窗口，第四个请求单独发起
+        NacosClientCollapseCommand clientCollapseCommand04 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client4");
+        Future<List<ServiceInstance>> future04 = clientCollapseCommand04.queue();
+        future04.get();
     }
 }
