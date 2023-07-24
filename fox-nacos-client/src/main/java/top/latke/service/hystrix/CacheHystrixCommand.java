@@ -29,7 +29,6 @@ public class CacheHystrixCommand extends HystrixCommand<List<ServiceInstance>> {
                 HystrixCommand.Setter.withGroupKey(
                                 HystrixCommandGroupKey.Factory.asKey("CacheHystrixCommandGroup")
                         ).andCommandKey(CACHED_KEY)
-
         );
         this.nacosClientService = nacosClientService;
         this.serviceId = serviceId;

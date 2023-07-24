@@ -125,8 +125,11 @@ public class HystrixController {
 
         CacheHystrixCommand.flushRequestCache(serviceId);
 
-        List<ServiceInstance> execute3 = cacheHystrixCommand1.execute();
-        List<ServiceInstance> execute4 = cacheHystrixCommand2.execute();
+        CacheHystrixCommand cacheHystrixCommand3 = new CacheHystrixCommand(nacosClientService,serviceId);
+        CacheHystrixCommand cacheHystrixCommand4 = new CacheHystrixCommand(nacosClientService,serviceId);
+
+        List<ServiceInstance> execute3 = cacheHystrixCommand3.execute();
+        List<ServiceInstance> execute4 = cacheHystrixCommand4.execute();
         log.info("result3,result4:[{}],[{}]",JSON.toJSONString(execute3),JSON.toJSONString(execute4));
     }
 }
