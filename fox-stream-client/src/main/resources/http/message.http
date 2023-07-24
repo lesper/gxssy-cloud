@@ -1,0 +1,7 @@
+### default
+GET http://127.0.0.1:8006/fox-stream-client/message/default
+Content-Type: application/json
+
+### admin
+GET http://127.0.0.1:8006/fox-stream-client/message/admin
+Content-Type: application/json

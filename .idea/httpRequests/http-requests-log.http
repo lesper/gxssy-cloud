@@ -1,3 +1,23 @@
+GET http://127.0.0.1:8006/fox-stream-client/message/admin
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-25T060424.200.json
+
+###
+
+GET http://127.0.0.1:8006/fox-stream-client/message/default
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-25T060341.200.json
+
+###
+
 GET http://127.0.0.1:9001/fox/fox-nacos-client/hystrix/hystrix-command-annotation?serviceId=fox-nacos-client
 Content-Type: application/json
 fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJlYTg4MzcwZC1hZmE2LTQ3MGItOWYyZi0yNmYyM2IwYzcyNjMiLCJleHAiOjE2OTAzMDA4MDB9.QUnDaChB678g9pbtS7Ymp-m54uRGpaFvvHDOMH7cWg18ZaYwIBuG8ZFCuz6kzqrm9hf_weLKUdAF2Z6vcwLoH4jBz20AbjvdSpXp8RJ5fs0pme-8TqiJ7CwBe8e8zCSZ6vePdhjYzI3Y97jCa5fF8mf2xhDHKMttkpW3tv9vsGPmbhpWcIm_cY95kQdFYPibcdY2obWpbyMnH_KT3ToCTM3EyEczexlvJ1xpxa76y22MGtPW_wPzmqTfH3adpo0XPDfO-UC2x-XYwPYUGCtQiAkMfMnDdR1BxoIAlNmJIMNUI-e3Y99pNoe9cBQEafWOXXu8JNqK4M2HYLMqSVScbg
@@ -577,26 +597,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-07-24T151741.200.json
-
-###
-
-GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-24T151720.200.json
-
-###
-
-GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-observable-command?serviceId=fox-nacos-client
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-24T143013.200.json
 
 ###
 
