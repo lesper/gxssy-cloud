@@ -30,3 +30,8 @@ Content-Type: application/json
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/request-merge
 Content-Type: application/json
 
+### request-merge-annotation
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/request-merge-annotation
+Content-Type: application/json
+
+

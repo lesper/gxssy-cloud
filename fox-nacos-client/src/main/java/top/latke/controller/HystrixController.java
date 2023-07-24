@@ -40,7 +40,7 @@ public class HystrixController {
 
     @GetMapping("hystrix-command-annotation")
     public List<ServiceInstance> get(@RequestParam String serviceId) {
-        log.info("request nacos client info use annotation:[{}],[{}]",serviceId,Thread.currentThread().getName());
+        log.info("request nacos client info use annotation:[{}],[{}]", serviceId, Thread.currentThread().getName());
         return useHystrixCommandAndAnnotation.getNacosClientInfoFallback(serviceId);
     }
 
@@ -87,9 +87,9 @@ public class HystrixController {
 
     @GetMapping("/hystrix-observable-command")
     public List<ServiceInstance> getServiceInstancesByServiceIdObservable(@RequestParam String serviceId) {
-        List<String> serviceIds = Arrays.asList(serviceId,serviceId,serviceId);
+        List<String> serviceIds = Arrays.asList(serviceId, serviceId, serviceId);
         List<List<ServiceInstance>> result = new ArrayList<>();
-        NacosClientHystrixObservableCommand observableCommand = new NacosClientHystrixObservableCommand(nacosClientService,serviceIds);
+        NacosClientHystrixObservableCommand observableCommand = new NacosClientHystrixObservableCommand(nacosClientService, serviceIds);
         //异步执行命令
         Observable<List<ServiceInstance>> observable = observableCommand.observe();
 
@@ -97,7 +97,7 @@ public class HystrixController {
         observable.subscribe(new Observer<List<ServiceInstance>>() {
             @Override
             public void onCompleted() {
-                log.info("all tasks is complete:[{}],[{}]",serviceId,Thread.currentThread().getName());
+                log.info("all tasks is complete:[{}],[{}]", serviceId, Thread.currentThread().getName());
             }
 
             @Override
@@ -111,32 +111,32 @@ public class HystrixController {
             }
         });
 
-        log.info("observable command result is: [{}],[{}]",JSON.toJSONString(result),Thread.currentThread().getName());
+        log.info("observable command result is: [{}],[{}]", JSON.toJSONString(result), Thread.currentThread().getName());
         return result.get(0);
     }
 
     @GetMapping("/cache-hystrix-command")
     public void cacheHystrixCommand(@RequestParam String serviceId) {
         //使用缓存 Command 发起两次请求
-        CacheHystrixCommand cacheHystrixCommand1 = new CacheHystrixCommand(nacosClientService,serviceId);
-        CacheHystrixCommand cacheHystrixCommand2 = new CacheHystrixCommand(nacosClientService,serviceId);
+        CacheHystrixCommand cacheHystrixCommand1 = new CacheHystrixCommand(nacosClientService, serviceId);
+        CacheHystrixCommand cacheHystrixCommand2 = new CacheHystrixCommand(nacosClientService, serviceId);
         List<ServiceInstance> execute1 = cacheHystrixCommand1.execute();
         List<ServiceInstance> execute2 = cacheHystrixCommand2.execute();
-        log.info("result1,result2:[{}],[{}]",JSON.toJSONString(execute1),JSON.toJSONString(execute2));
+        log.info("result1,result2:[{}],[{}]", JSON.toJSONString(execute1), JSON.toJSONString(execute2));
 
         CacheHystrixCommand.flushRequestCache(serviceId);
 
-        CacheHystrixCommand cacheHystrixCommand3 = new CacheHystrixCommand(nacosClientService,serviceId);
-        CacheHystrixCommand cacheHystrixCommand4 = new CacheHystrixCommand(nacosClientService,serviceId);
+        CacheHystrixCommand cacheHystrixCommand3 = new CacheHystrixCommand(nacosClientService, serviceId);
+        CacheHystrixCommand cacheHystrixCommand4 = new CacheHystrixCommand(nacosClientService, serviceId);
 
         List<ServiceInstance> execute3 = cacheHystrixCommand3.execute();
         List<ServiceInstance> execute4 = cacheHystrixCommand4.execute();
-        log.info("result3,result4:[{}],[{}]",JSON.toJSONString(execute3),JSON.toJSONString(execute4));
+        log.info("result3,result4:[{}],[{}]", JSON.toJSONString(execute3), JSON.toJSONString(execute4));
     }
 
     @GetMapping("/cache-annotation-01")
     public List<ServiceInstance> useCacheByAnnotation01(@RequestParam String serviceId) {
-        log.info("use cache01 by useCacheByAnnotation01(Controller): [{}]",serviceId);
+        log.info("use cache01 by useCacheByAnnotation01(Controller): [{}]", serviceId);
         List<ServiceInstance> result01 = cacheHystrixCommandAnnotation.useCacheByAnnotation01(serviceId);
         List<ServiceInstance> result02 = cacheHystrixCommandAnnotation.useCacheByAnnotation01(serviceId);
 
@@ -149,7 +149,7 @@ public class HystrixController {
 
     @GetMapping("/cache-annotation-02")
     public List<ServiceInstance> useCacheByAnnotation02(@RequestParam String serviceId) {
-        log.info("use cache02 by useCacheByAnnotation02(Controller): [{}]",serviceId);
+        log.info("use cache02 by useCacheByAnnotation02(Controller): [{}]", serviceId);
         List<ServiceInstance> result01 = cacheHystrixCommandAnnotation.useCacheByAnnotation02(serviceId);
         List<ServiceInstance> result02 = cacheHystrixCommandAnnotation.useCacheByAnnotation02(serviceId);
 
@@ -162,7 +162,7 @@ public class HystrixController {
 
     @GetMapping("/cache-annotation-03")
     public List<ServiceInstance> useCacheByAnnotation03(@RequestParam String serviceId) {
-        log.info("use cache03 by useCacheByAnnotation03(Controller): [{}]",serviceId);
+        log.info("use cache03 by useCacheByAnnotation03(Controller): [{}]", serviceId);
         List<ServiceInstance> result01 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
         List<ServiceInstance> result02 = cacheHystrixCommandAnnotation.useCacheByAnnotation03(serviceId);
 
@@ -177,11 +177,11 @@ public class HystrixController {
      * 编程方式实现请求合并
      */
     @GetMapping("/request-merge")
-    public void requestMerge() throws Exception{
+    public void requestMerge() throws Exception {
         //前三个请求会被合并
-        NacosClientCollapseCommand clientCollapseCommand01 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client1");
-        NacosClientCollapseCommand clientCollapseCommand02 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client2");
-        NacosClientCollapseCommand clientCollapseCommand03 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client3");
+        NacosClientCollapseCommand clientCollapseCommand01 = new NacosClientCollapseCommand(nacosClientService, "fox-nacos-client1");
+        NacosClientCollapseCommand clientCollapseCommand02 = new NacosClientCollapseCommand(nacosClientService, "fox-nacos-client2");
+        NacosClientCollapseCommand clientCollapseCommand03 = new NacosClientCollapseCommand(nacosClientService, "fox-nacos-client3");
 
         Future<List<ServiceInstance>> future01 = clientCollapseCommand01.queue();
         Future<List<ServiceInstance>> future02 = clientCollapseCommand02.queue();
@@ -194,8 +194,28 @@ public class HystrixController {
         Thread.sleep(2000);
 
         //过了合并的时间窗口，第四个请求单独发起
-        NacosClientCollapseCommand clientCollapseCommand04 = new NacosClientCollapseCommand(nacosClientService,"fox-nacos-client4");
+        NacosClientCollapseCommand clientCollapseCommand04 = new NacosClientCollapseCommand(nacosClientService, "fox-nacos-client4");
         Future<List<ServiceInstance>> future04 = clientCollapseCommand04.queue();
+        future04.get();
+    }
+
+    /**
+     * 注解方式方式实现请求合并
+     */
+    @GetMapping("/request-merge-annotation")
+    public void requestMergeAnnotation() throws Exception {
+        Future<List<ServiceInstance>> future01 = nacosClientService.findNacosClientInfo("fox-nacos-client01");
+        Future<List<ServiceInstance>> future02 = nacosClientService.findNacosClientInfo("fox-nacos-client02");
+        Future<List<ServiceInstance>> future03 = nacosClientService.findNacosClientInfo("fox-nacos-client03");
+
+        future01.get();
+        future02.get();
+        future03.get();
+
+        Thread.sleep(2000);
+
+        //过了合并的时间窗口，第四个请求单独发起
+        Future<List<ServiceInstance>> future04 = nacosClientService.findNacosClientInfo("fox-nacos-client04");
         future04.get();
     }
 }
