@@ -19,6 +19,7 @@
         <module>fox-gateway</module>
         <module>fox-service</module>
         <module>fox-hystrix-dashboard</module>
+        <module>fox-demo-message</module>
     </modules>
 
     <parent>
