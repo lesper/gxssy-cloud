@@ -15,7 +15,7 @@ import top.latke.vo.UsernameAndPassword;
 public class AuthorityFeignClientFallbackFactory implements FallbackFactory<AuthorityFeignClient> {
     @Override
     public AuthorityFeignClient create(Throwable throwable) {
-        log.warn("authority feign client get token by feign request error(Hystrix FallbackFactory: [{}])",throwable.getMessage(),throwable);
+        log.warn("authority feign client get token by feign request error(Hystrix FallbackFactory: [{}]",throwable.getMessage(),throwable);
         return new AuthorityFeignClient() {
             @Override
             public JwtToken getTokenByFeign(UsernameAndPassword usernameAndPassword) {
