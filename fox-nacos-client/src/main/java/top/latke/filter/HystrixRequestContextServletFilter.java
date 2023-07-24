@@ -22,7 +22,7 @@ import java.io.IOException;
 @Component
 @WebFilter(
         filterName = "HystrixRequestContextServletFilter",
-        urlPatterns = "/",
+        urlPatterns = "/*",
         asyncSupported = true
 )
 public class HystrixRequestContextServletFilter implements Filter {
@@ -36,6 +36,8 @@ public class HystrixRequestContextServletFilter implements Filter {
             hystrixConcurrencyStrategyConfig();
             filterChain.doFilter(servletRequest,servletResponse);
         }catch (Exception ex){
+            ex.printStackTrace();
+        }finally {
             context.shutdown();
         }
     }
@@ -47,7 +49,7 @@ public class HystrixRequestContextServletFilter implements Filter {
         try {
             HystrixConcurrencyStrategy target = HystrixConcurrencyStrategyDefault.getInstance();
             HystrixConcurrencyStrategy strategy = HystrixPlugins.getInstance().getConcurrencyStrategy();
-            if (target instanceof HystrixConcurrencyStrategy) {
+            if (strategy instanceof HystrixConcurrencyStrategyDefault) {
                 return;
             }
 

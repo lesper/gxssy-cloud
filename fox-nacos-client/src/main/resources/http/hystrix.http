@@ -10,7 +10,6 @@ Content-Type: application/json
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-observable-command?serviceId=fox-nacos-client
 Content-Type: application/json
 
-
 ### cache-hystrix-command
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
 Content-Type: application/json
