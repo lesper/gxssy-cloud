@@ -2,10 +2,15 @@
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-command-annotation?serviceId=fox-nacos-client
 Content-Type: application/json
 
-### 根据提供的 serviceId 获取实例信息
+### simple-hystrix-command
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/simple-hystrix-command?serviceId=fox-nacos-client
 Content-Type: application/json
 
-### 根据提供的 serviceId 获取实例信息
+### hystrix-observable-command
 GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-observable-command?serviceId=fox-nacos-client
+Content-Type: application/json
+
+
+### cache-hystrix-command
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/cache-hystrix-command?serviceId=fox-nacos-client
 Content-Type: application/json

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import rx.Observable;
 import rx.Observer;
 import top.latke.service.NacosClientService;
+import top.latke.service.hystrix.CacheHystrixCommand;
 import top.latke.service.hystrix.NacosClientHystrixCommand;
 import top.latke.service.hystrix.NacosClientHystrixObservableCommand;
 import top.latke.service.hystrix.UseHystrixCommandAndAnnotation;
@@ -84,7 +85,7 @@ public class HystrixController {
     }
 
     @GetMapping("/hystrix-observable-command")
-    public List<ServiceInstance> getServiceInstancesByServiceIdObservable( @RequestParam String serviceId) {
+    public List<ServiceInstance> getServiceInstancesByServiceIdObservable(@RequestParam String serviceId) {
         List<String> serviceIds = Arrays.asList(serviceId,serviceId,serviceId);
         List<List<ServiceInstance>> result = new ArrayList<>();
         NacosClientHystrixObservableCommand observableCommand = new NacosClientHystrixObservableCommand(nacosClientService,serviceIds);
@@ -111,5 +112,21 @@ public class HystrixController {
 
         log.info("observable command result is: [{}],[{}]",JSON.toJSONString(result),Thread.currentThread().getName());
         return result.get(0);
+    }
+
+    @GetMapping("/cache-hystrix-command")
+    public void cacheHystrixCommand(@RequestParam String serviceId) {
+        //使用缓存 Command 发起两次请求
+        CacheHystrixCommand cacheHystrixCommand1 = new CacheHystrixCommand(nacosClientService,serviceId);
+        CacheHystrixCommand cacheHystrixCommand2 = new CacheHystrixCommand(nacosClientService,serviceId);
+        List<ServiceInstance> execute1 = cacheHystrixCommand1.execute();
+        List<ServiceInstance> execute2 = cacheHystrixCommand2.execute();
+        log.info("result1,result2:[{}],[{}]",JSON.toJSONString(execute1),JSON.toJSONString(execute2));
+
+        CacheHystrixCommand.flushRequestCache(serviceId);
+
+        List<ServiceInstance> execute3 = cacheHystrixCommand1.execute();
+        List<ServiceInstance> execute4 = cacheHystrixCommand2.execute();
+        log.info("result3,result4:[{}],[{}]",JSON.toJSONString(execute3),JSON.toJSONString(execute4));
     }
 }
