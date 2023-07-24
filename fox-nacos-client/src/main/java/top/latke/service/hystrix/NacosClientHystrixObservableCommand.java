@@ -11,6 +11,7 @@ import rx.Observable;
 import rx.Subscriber;
 import top.latke.service.NacosClientService;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -74,6 +75,20 @@ public class NacosClientHystrixObservableCommand extends HystrixObservableComman
      */
     @Override
     protected Observable<List<ServiceInstance>> resumeWithFallback() {
-        return super.resumeWithFallback();
+        return Observable.create(new Observable.OnSubscribe<List<ServiceInstance>>() {
+            @Override
+            public void call(Subscriber<? super List<ServiceInstance>> subscriber) {
+                try {
+                    if (!subscriber.isUnsubscribed()) {
+                        log.info("(fallback) subscriber command task: [{}], [{}]", JSON.toJSONString(serviceIds), Thread.currentThread().getName());
+                        subscriber.onNext(Collections.emptyList());
+                        subscriber.onCompleted();
+                        log.info("(fallback) command task completed: [{}], [{}]", JSON.toJSONString(serviceIds), Thread.currentThread().getName());
+                    }
+                } catch (Exception ex) {
+                    subscriber.onError(ex);
+                }
+            }
+        });
     }
 }

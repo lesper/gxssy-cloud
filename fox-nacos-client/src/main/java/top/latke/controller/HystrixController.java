@@ -8,10 +8,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import rx.Observable;
+import rx.Observer;
 import top.latke.service.NacosClientService;
 import top.latke.service.hystrix.NacosClientHystrixCommand;
+import top.latke.service.hystrix.NacosClientHystrixObservableCommand;
 import top.latke.service.hystrix.UseHystrixCommandAndAnnotation;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.Future;
 
@@ -77,5 +81,35 @@ public class HystrixController {
 
         // execute = queue + get
         return serviceInstances01;
+    }
+
+    @GetMapping("/hystrix-observable-command")
+    public List<ServiceInstance> getServiceInstancesByServiceIdObservable( @RequestParam String serviceId) {
+        List<String> serviceIds = Arrays.asList(serviceId,serviceId,serviceId);
+        List<List<ServiceInstance>> result = new ArrayList<>();
+        NacosClientHystrixObservableCommand observableCommand = new NacosClientHystrixObservableCommand(nacosClientService,serviceIds);
+        //异步执行命令
+        Observable<List<ServiceInstance>> observable = observableCommand.observe();
+
+        //注册获取结果
+        observable.subscribe(new Observer<List<ServiceInstance>>() {
+            @Override
+            public void onCompleted() {
+                log.info("all tasks is complete:[{}],[{}]",serviceId,Thread.currentThread().getName());
+            }
+
+            @Override
+            public void onError(Throwable throwable) {
+                throwable.printStackTrace();
+            }
+
+            @Override
+            public void onNext(List<ServiceInstance> serviceInstances) {
+                result.add(serviceInstances);
+            }
+        });
+
+        log.info("observable command result is: [{}],[{}]",JSON.toJSONString(result),Thread.currentThread().getName());
+        return result.get(0);
     }
 }

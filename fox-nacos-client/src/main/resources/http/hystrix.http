@@ -3,5 +3,9 @@ GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-command-annotation?se
 Content-Type: application/json
 
 ### 根据提供的 serviceId 获取实例信息
-GET http://127.0.0.1:8000/fox-nacos-client/hystrix/simple-hystrix-command?serviceId=e-commerce-nacos-client
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/simple-hystrix-command?serviceId=fox-nacos-client
+Content-Type: application/json
+
+### 根据提供的 serviceId 获取实例信息
+GET http://127.0.0.1:8000/fox-nacos-client/hystrix/hystrix-observable-command?serviceId=fox-nacos-client
 Content-Type: application/json
