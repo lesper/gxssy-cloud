@@ -41,8 +41,8 @@ spring:
             # partitionKeyExpression: payload.author  # 分区关键字, payload 指的是发送的对象, author 是对象中的属性
             partitionCount: 1   # 分区大小
             # 使用自定义的分区策略, 注释掉 partitionKeyExpression
-#            partitionKeyExtractorName: AdminPartitionKeyExtractorStrategy
-#            partitionSelectorName: AdminPartitionSelectorStrategy
+            partitionKeyExtractorName: adminPartitionKeyExtractorStrategy
+            partitionSelectorName: adminPartitionSelectorStrategy
         # 默认接收方
         input:      # 这里用 Stream 给我们提供的默认 input 信道
           destination: fox-stream-client-default
