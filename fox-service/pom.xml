@@ -14,9 +14,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>fox-service-sdk</module>
         <module>fox-service-config</module>
         <module>fox-account-service</module>
-        <module>fox-service-sdk</module>
         <module>fox-goods-service</module>
         <module>fox-order-service</module>
     </modules>

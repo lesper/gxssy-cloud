@@ -21,5 +21,5 @@ public interface IOrderService {
      * @param page
      * @return
      */
-    PageSimpleOrderDetail getPageSimpleOrderDetailByPage(int page);
+    PageSimpleOrderDetail getSimpleOrderDetailByPage(int page);
 }
