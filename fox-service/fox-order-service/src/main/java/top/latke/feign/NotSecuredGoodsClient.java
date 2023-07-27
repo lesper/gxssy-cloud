@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import top.latke.common.TableId;
 import top.latke.goods.DeductGoodsInventory;
-import top.latke.goods.GoodsInfo;
+import top.latke.goods.SimpleGoodsInfo;
 import top.latke.vo.CommonResponse;
 
 import java.util.List;
@@ -31,5 +31,5 @@ public interface NotSecuredGoodsClient {
      * @return
      */
     @RequestMapping(value = "fox-goods-service/goods/simple-goods-info",method = RequestMethod.POST)
-    CommonResponse<GoodsInfo> getSimpleGoodsInfoByTableId(@RequestBody TableId tableId);
+    CommonResponse<List<SimpleGoodsInfo>> getSimpleGoodsInfoByTableId(@RequestBody TableId tableId);
 }

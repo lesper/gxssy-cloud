@@ -14,7 +14,7 @@ public interface IOrderService {
      * @param orderInfo
      * @return
      */
-    TableId create(OrderInfo orderInfo);
+    TableId createOrder(OrderInfo orderInfo);
 
     /**
      * 获取当前用户的订单信息，带有分页

@@ -15,7 +15,7 @@ import java.util.List;
  * 安全的商品服务 Fiegn 接口定义
  */
 @FeignClient(contextId = "SecuredGoodsClients", value = "fox-goods-service", fallbackFactory = GoodsClientHystrix.class)
-public interface SecuredGoodsClients {
+public interface SecuredGoodsClient {
 
     /**
      * 根据 ids 查询简单商品信息
