@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.Import;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import top.latke.conf.DataSourceProxyAutoConfiguration;
 
 /**
  * 订单微服务启动入口
@@ -18,6 +20,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
+@Import(DataSourceProxyAutoConfiguration.class)
 public class FoxOrderApplication {
 
     public static void main(String[] args) {

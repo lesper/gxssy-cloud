@@ -16,6 +16,9 @@ spring:
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator
+    alibaba:
+      seata:
+        tx-service-group: fox-ecommerce # seata 全局事务分组
   kafka:
     bootstrap-servers: 124.223.79.144:9092
     producer:
