@@ -75,7 +75,7 @@ spring:
 # feign 相关的配置
 feign:
   hystrix:
-    enabled: true   # Hystrix 默认是关闭的
+    enabled: false   # Hystrix 默认是关闭的
   client:
     config:
       default:  # 全局的
