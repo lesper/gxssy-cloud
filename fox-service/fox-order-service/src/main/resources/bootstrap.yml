@@ -90,7 +90,7 @@ management:
   endpoint:
     health:
       show-details: always
-#open-feign 集成 Hystrix 超时设置: https://blog.csdn.net/m0_37824232/article/details/126786287
+#open-feign 集成 Hystrix 超时设置: https://blog.csdn.net/m0_37824232/article/details/126786287 / https://blog.csdn.net/qq_18671415/article/details/120915925
 #hystrix:
 #  command:
 #    #全局默认配置
@@ -115,3 +115,8 @@ management:
 #          strategy: THREAD
 #          thread:
 #            timeoutInMilliseconds: 10000
+
+#ribbon的超时时间，open-feign 内置 ribbon，ribbon的超时时间 < hystrix 超时时间，因为存在 ribbon 重试
+#ribbon:
+#  ReadTimeout: 5000 #设置请求处理的超时时间
+#  ConnectTimeout: 5000  #设置请求链接的超时时间
