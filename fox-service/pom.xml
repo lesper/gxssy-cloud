@@ -17,7 +17,8 @@
         <module>fox-service-config</module>
         <module>fox-account-service</module>
         <module>fox-service-sdk</module>
-        <module>fox-good-service</module>
+        <module>fox-goods-service</module>
+        <module>fox-order-service</module>
     </modules>
 
     <name>e-commerce-service</name>

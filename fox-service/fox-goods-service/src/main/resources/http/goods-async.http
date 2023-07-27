@@ -1,0 +1,58 @@
+### 导入商品
+POST http://127.0.0.1:9001/fox/fox-goods-service/async-goods/import-goods
+Content-Type: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
+
+[
+  {
+    "goodsCategory": "10001",
+    "brandCategory": "20001",
+    "goodsName": "iphone 11",
+    "goodsPic": "",
+    "goodsDescription": "苹果手机",
+    "price": 100000,
+    "supply": 2000000,
+    "goodsProperty": {
+      "size": "12cm * 6.5cm",
+      "color": "绿色",
+      "material": "金属机身",
+      "pattern": "纯色"
+    }
+  },
+  {
+    "goodsCategory": "10001",
+    "brandCategory": "20001",
+    "goodsName": "iphone 12",
+    "goodsPic": "",
+    "goodsDescription": "苹果手机",
+    "price": 150000,
+    "supply": 2000000,
+    "goodsProperty": {
+      "size": "12cm * 6.5cm",
+      "color": "绿色",
+      "material": "金属机身",
+      "pattern": "纯色"
+    }
+  },
+  {
+    "goodsCategory": "10001",
+    "brandCategory": "20001",
+    "goodsName": "iphone 13",
+    "goodsPic": "",
+    "goodsDescription": "苹果手机",
+    "price": 160000,
+    "supply": 2000000,
+    "goodsProperty": {
+      "size": "12cm * 6.5cm",
+      "color": "绿色",
+      "material": "金属机身",
+      "pattern": "纯色"
+    }
+  }
+]
+
+
+### 查询导入商品状态
+GET http://127.0.0.1:9001/fox/fox-goods-service/async-goods/task-info?taskId=726f2f6c-99bc-4500-9b46-aa0336572d68
+Accept: application/json
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
