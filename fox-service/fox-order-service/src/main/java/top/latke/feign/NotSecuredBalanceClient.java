@@ -10,7 +10,7 @@ import top.latke.vo.CommonResponse;
 /**
  * 用户账户服务 Feign 接口
  */
-@FeignClient(contextId = "NotSecuredBalanceClient",value = "fox-order-service")
+@FeignClient(contextId = "NotSecuredBalanceClient",value = "fox-account-service")
 public interface NotSecuredBalanceClient {
 
 

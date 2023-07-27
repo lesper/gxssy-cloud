@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import top.latke.common.TableId;
+import top.latke.feign.hystrix.FallBackFactory;
 import top.latke.goods.DeductGoodsInventory;
 import top.latke.goods.SimpleGoodsInfo;
 import top.latke.vo.CommonResponse;
@@ -14,7 +15,7 @@ import java.util.List;
 /**
  * 用户商品服务 Feign 接口
  */
-@FeignClient(contextId = "NotSecuredGoodsClient",value = "fox-goods-service")
+@FeignClient(contextId = "NotSecuredGoodsClient",value = "fox-goods-service",fallbackFactory = FallBackFactory.class)
 public interface NotSecuredGoodsClient {
 
     /**
@@ -30,6 +31,6 @@ public interface NotSecuredGoodsClient {
      * @param tableId
      * @return
      */
-    @RequestMapping(value = "fox-goods-service/goods/simple-goods-info",method = RequestMethod.POST)
+    @RequestMapping(value = "/fox-goods-service/goods/simple-goods-info",method = RequestMethod.POST)
     CommonResponse<List<SimpleGoodsInfo>> getSimpleGoodsInfoByTableId(@RequestBody TableId tableId);
 }

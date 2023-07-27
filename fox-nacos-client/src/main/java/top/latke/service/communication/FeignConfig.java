@@ -45,8 +45,9 @@ public class FeignConfig {
      * 请求的链接和响应时间进行限制
      * @return
      */
+    @Bean
     public Request.Options options() {
-        return new Request.Options(CONNECT_TIMEOUT_MILLS,TimeUnit.MICROSECONDS,READ_TIMEOUT_MILLS,TimeUnit.MICROSECONDS,true);
+        return new Request.Options(CONNECT_TIMEOUT_MILLS,TimeUnit.MILLISECONDS,READ_TIMEOUT_MILLS,TimeUnit.MILLISECONDS,true);
     }
 
 }
