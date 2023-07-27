@@ -91,27 +91,27 @@ management:
     health:
       show-details: always
 #open-feign 集成 Hystrix 超时设置: https://blog.csdn.net/m0_37824232/article/details/126786287
-hystrix:
-  command:
-    #全局默认配置
-    default:
-      #线程隔离相关
-      execution:
-        timeout:
-          #是否给方法执行设置超时时间，默认为true。一般我们不要改。
-          enabled: true
-        isolation:
-          #配置请求隔离的方式，这里是默认的线程池方式。还有一种信号量的方式semaphore。
-          strategy: THREAD
-          thread:
-            #方式执行的超时时间，默认为1000毫秒，在实际场景中需要根据情况设置
-            timeoutInMilliseconds: 1000000
-    # 实例配置
-    HystrixCommandKey:
-      execution:
-        timeout:
-          enabled: true
-        isolation:
-          strategy: THREAD
-          thread:
-            timeoutInMilliseconds: 10000
+#hystrix:
+#  command:
+#    #全局默认配置
+#    default:
+#      #线程隔离相关
+#      execution:
+#        timeout:
+#          #是否给方法执行设置超时时间，默认为true。一般我们不要改。
+#          enabled: true
+#        isolation:
+#          #配置请求隔离的方式，这里是默认的线程池方式。还有一种信号量的方式semaphore。
+#          strategy: THREAD
+#          thread:
+#            #方式执行的超时时间，默认为1000毫秒，在实际场景中需要根据情况设置
+#            timeoutInMilliseconds: 1000000
+#    # 实例配置
+#    HystrixCommandKey:
+#      execution:
+#        timeout:
+#          enabled: true
+#        isolation:
+#          strategy: THREAD
+#          thread:
+#            timeoutInMilliseconds: 10000
