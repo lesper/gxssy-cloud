@@ -12,7 +12,7 @@ import top.latke.vo.CommonResponse;
 /**
  * 用户账户服务 Feign 接口定义（啊暖的）
  */
-@FeignClient(contextId = "AddressClient",value = "fox-account-service",fallbackFactory = AddressClientHystrix.class)
+@FeignClient(contextId = "AddressClient",value = "fox-account-service",fallback = AddressClientHystrix.class)
 public interface AddressClient {
 
     /**
