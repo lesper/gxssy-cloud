@@ -19,6 +19,7 @@
         <module>fox-account-service</module>
         <module>fox-goods-service</module>
         <module>fox-order-service</module>
+        <module>fox-logistics-service</module>
     </modules>
 
     <name>e-commerce-service</name>
