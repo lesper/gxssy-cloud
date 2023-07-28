@@ -79,8 +79,8 @@ feign:
   client:
     config:
       default:  # 全局的
-        connectTimeout: 20000000  # 默认的连接超时时间是 10s
-        readTimeout: 5000000
+        connectTimeout: 2000  # 默认的连接超时时间是 10s
+        readTimeout: 5000
 # 暴露端点
 management:
   endpoints:
