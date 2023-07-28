@@ -20,6 +20,7 @@
         <module>fox-service</module>
         <module>fox-hystrix-dashboard</module>
         <module>fox-stream-client</module>
+        <module>fox-sentinel-client</module>
         <module>fox-demo-message</module>
     </modules>
 
