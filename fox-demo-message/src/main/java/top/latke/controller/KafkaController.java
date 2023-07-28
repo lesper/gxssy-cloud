@@ -10,7 +10,7 @@ import top.latke.kafka.KafkaProducer;
 import top.latke.vo.QinyiMessage;
 
 /**
- * <h1>SpringBoot 集成 kafka 发送消息</h1>
+ * SpringBoot 集成 kafka 发送消息
  * */
 @Slf4j
 @RestController
@@ -26,7 +26,7 @@ public class KafkaController {
     }
 
     /**
-     * <h2>发送 kafka 消息</h2>
+     * 发送 kafka 消息
      * */
     @GetMapping("/send-message")
     public void sendMessage(@RequestParam(required = false) String key,

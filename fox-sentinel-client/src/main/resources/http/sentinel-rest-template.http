@@ -1,5 +1,5 @@
 ### 获取 Token
-POST 127.0.0.1:8100/ecommerce-sentinel-client/sentinel-rest-template/get-token
+POST 127.0.0.1:8100/fox-sentinel-client/sentinel-rest-template/get-token
 Content-Type: application/json
 
 {

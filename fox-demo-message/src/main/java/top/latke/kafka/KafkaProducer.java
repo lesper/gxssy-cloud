@@ -10,7 +10,7 @@ import org.springframework.util.concurrent.ListenableFuture;
 import java.util.concurrent.TimeUnit;
 
 /**
- * <h1>kafka 生产者</h1>
+ * kafka 生产者
  * */
 @Slf4j
 @Component
@@ -23,7 +23,7 @@ public class KafkaProducer {
     }
 
     /**
-     * <h2>发送 kafka 消息</h2>
+     * 发送 kafka 消息
      * */
     public void sendMessage(String key, String value, String topic) {
 

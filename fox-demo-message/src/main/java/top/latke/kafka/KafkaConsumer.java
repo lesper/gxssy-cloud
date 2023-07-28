@@ -10,7 +10,7 @@ import top.latke.vo.QinyiMessage;
 import java.util.Optional;
 
 /**
- * <h1>Kafka 消费者</h1>
+ * Kafka 消费者
  * */
 @Slf4j
 @Component
@@ -23,7 +23,7 @@ public class KafkaConsumer {
     }
 
     /**
-     * <h2>监听 Kafka 消息并消费</h2>
+     * 监听 Kafka 消息并消费
      * */
     @KafkaListener(topics = {"qinyi-springboot"}, groupId = "qinyi-springboot-kafka")
     public void listener01(ConsumerRecord<String, String> record) throws Exception {
@@ -37,7 +37,7 @@ public class KafkaConsumer {
     }
 
     /**
-     * <h2>监听 Kafka 消息并消费</h2>
+     * 监听 Kafka 消息并消费
      * */
     @KafkaListener(topics = {"qinyi-springboot"}, groupId = "qinyi-springboot-kafka-1")
     public void listener02(ConsumerRecord<?, ?> record) throws Exception {

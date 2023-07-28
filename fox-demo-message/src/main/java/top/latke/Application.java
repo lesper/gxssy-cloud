@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * <h1>工程启动入口</h1>
+ * 工程启动入口
  * */
 @SpringBootApplication
 public class Application {

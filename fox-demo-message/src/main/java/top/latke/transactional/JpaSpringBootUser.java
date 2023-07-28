@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * <h1>用户表实体类定义</h1>
+ * 用户表实体类定义
  * */
 @Data
 @NoArgsConstructor

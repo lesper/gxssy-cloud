@@ -22,7 +22,7 @@
         <module>fox-logistics-service</module>
     </modules>
 
-    <name>e-commerce-service</name>
+    <name>fox-service</name>
     <description>功能业务服务模块父模块</description>
 
     <properties>

@@ -90,7 +90,7 @@ public class EcommerceGoods {
     private Date updateTime;
 
     /**
-     * <h2>将 GoodsInfo 转成实体对象</h2>
+     * 将 GoodsInfo 转成实体对象
      * */
     public static EcommerceGoods to(GoodsInfo goodsInfo) {
 
@@ -113,7 +113,7 @@ public class EcommerceGoods {
     }
 
     /**
-     * <h2>将实体对象转成 GoodsInfo 对象</h2>
+     * 将实体对象转成 GoodsInfo 对象
      * */
     public GoodsInfo toGoodsInfo() {
 
@@ -139,7 +139,7 @@ public class EcommerceGoods {
     }
 
     /**
-     * <h2>将实体对象转成 SimpleGoodsInfo 对象</h2>
+     * 将实体对象转成 SimpleGoodsInfo 对象
      * */
     public SimpleGoodsInfo toSimple() {
 

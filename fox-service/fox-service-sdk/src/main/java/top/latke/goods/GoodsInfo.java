@@ -57,7 +57,7 @@ public class GoodsInfo {
     private Date updateTime;
 
     /**
-     * <h2>商品属性</h2>
+     * 商品属性
      * */
     @ApiModel(description = "商品属性对象")
     @Data

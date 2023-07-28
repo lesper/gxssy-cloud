@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * <h1>TransactionalLose Controller</h1>
+ * TransactionalLose Controller
  * */
 @Slf4j
 @RestController

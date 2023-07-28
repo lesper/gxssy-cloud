@@ -26,7 +26,7 @@ public class PageSimpleOrderDetail {
     private Boolean hasMore;
 
     /**
-     * <h2>单个订单信息</h2>
+     * 单个订单信息
      * */
     @ApiModel(description = "单个订单信息对象")
     @Data

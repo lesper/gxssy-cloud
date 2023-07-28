@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * <h1>通过 Kafka 传递的消息对象</h1>
+ * 通过 Kafka 传递的消息对象
  * */
 @Data
 @NoArgsConstructor

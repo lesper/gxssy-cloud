@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import top.latke.vo.QinyiMessage;
 
 /**
- * <h1>通过 RocketMQ 发送消息</h1>
+ * 通过 RocketMQ 发送消息
  * Spring Messaging 模块
  * */
 @Slf4j
@@ -30,7 +30,7 @@ public class RocketMQProducer {
     }
 
     /**
-     * <h2>使用同步的方式发送消息, 不指定 key 和 tag</h2>
+     * 使用同步的方式发送消息, 不指定 key 和 tag
      * */
     public void sendMessageWithValue(String value) {
 
@@ -46,7 +46,7 @@ public class RocketMQProducer {
     }
 
     /**
-     * <h2>使用异步的方式发送消息, 指定 key</h2>
+     * 使用异步的方式发送消息, 指定 key
      * */
     public void sendMessageWithKey(String key, String value) {
 
@@ -70,7 +70,7 @@ public class RocketMQProducer {
     }
 
     /**
-     * <h2>使用同步的方式发送消息, 带有 tag, 且发送的是 Java Pojo</h2>
+     * 使用同步的方式发送消息, 带有 tag, 且发送的是 Java Pojo
      * */
     public void sendMessageWithTag(String tag, String value) {
 
@@ -83,7 +83,7 @@ public class RocketMQProducer {
     }
 
     /**
-     * <h2>使用同步的方式发送消息, 带有 key 和 tag</h2>
+     * 使用同步的方式发送消息, 带有 key 和 tag
      * */
     public void sendMessageWithAll(String key, String tag, String value) {
 

@@ -1,3 +1,153 @@
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170445.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170444.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170309.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170308-1.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170308.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170307.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170306.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170305.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170304.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170303.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170239-1.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170239.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170008.200.json
+
+###
+
+GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T170006.200.json
+
+###
+
+GET http://127.0.0.1:8100/ecommerce-sentinel-client/dashboard/by-resource
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T165955.404.html
+
+###
+
 GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
 Content-Type: application/json
 Connection: Keep-Alive
@@ -416,349 +566,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 }
 
 <> 2023-07-28T034039.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T033858.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T033449.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T033403.503.json
-
-###
-
-PUT http://127.0.0.1:9001/fox/fox-goods-service/goods/deduct-goods-inventory
-Content-Type: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 91
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-  {
-    "goodsId": 10,
-    "count": 100
-  },
-  {
-    "goodsId": 12,
-    "count": 34
-  }
-]
-
-<> 2023-07-28T033235.200.json
-
-###
-
-PUT http://127.0.0.1:9001/fox/fox-goods-service/goods/deduct-goods-inventory
-Content-Type: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiI0YjZhNTQ5YS02Mzc3LTQzN2EtYmE1Yi1jMzBkMTRkOTU3MTkiLCJleHAiOjE2ODk2OTYwMDB9.v1-EFCJ0RiorjBIHaK0IZ6RQtoZq-7aBrgD26jjfVA2fFrQprLxA5q6f93piKXcPvjXdAsFDHhOY-OEDT--iIX5g8PnM6aOVBOMENsq5BWj6ZGG-tNJhNWrIm0h29xD7AUKmvya6s5oRddGtUnohljJNq9MbwjqAMvSby97dFu7aE7gNQmEh1zUOKY_3BxLzcs53uBDep-kA62Bjrx3aSho-ejhWHpWQRVmmRfRZRbm9SAOd9xn3c0ALbQSlHpI3Y_P-yE4KeQEak60EuE1kYTAyT2MXywDyxKge0MIJhGyg5VAPh60eYsW9237HQUI33Kh7lLjES2dT7iygWZ9Sqg
-Content-Length: 91
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-  {
-    "goodsId": 10,
-    "count": 100
-  },
-  {
-    "goodsId": 12,
-    "count": 34
-  }
-]
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T032709.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T032555.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T032536.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T032512.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T031855.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T031724.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T031103.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T031013.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T030846.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
-Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T030803.200.json
 
 ###
 

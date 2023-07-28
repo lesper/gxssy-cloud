@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import top.latke.vo.QinyiMessage;
 
 /**
- * <h1>第一个 RocketMQ 消费者</h1>
+ * 第一个 RocketMQ 消费者
  * */
 @Slf4j
 @Component

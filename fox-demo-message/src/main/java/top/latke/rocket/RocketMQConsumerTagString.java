@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import top.latke.vo.QinyiMessage;
 
 /**
- * <h1>第二个 RocketMQ 消费者, 指定了消费带有 tag 的消息</h1>
+ * 第二个 RocketMQ 消费者, 指定了消费带有 tag 的消息
  * */
 @Slf4j
 @Component

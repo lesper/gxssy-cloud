@@ -25,7 +25,7 @@ public class OrderInfo {
     private List<OrderItem> orderItems;
 
     /**
-     * <h2>订单中的商品信息</h2>
+     * 订单中的商品信息
      * */
     @ApiModel(description = "订单中的单项商品信息")
     @Data

@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.io.IOException;
 
 /**
- * <h1>事务失效的场景</h1>
+ * 事务失效的场景
  * */
 @Slf4j
 @Service
@@ -34,7 +34,7 @@ public class TransactionalLose {
     }
 
     /**
-     * <h2>同一个类中的方法调用</h2>
+     * 同一个类中的方法调用
      * */
     public void wrongInnerCall() throws Exception {
         this.wrongRollbackFor();

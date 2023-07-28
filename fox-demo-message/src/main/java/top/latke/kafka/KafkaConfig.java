@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * <h1>通过代码自定义 Kafka 配置</h1>
+ * 通过代码自定义 Kafka 配置
  * */
 @Configuration
 public class KafkaConfig {
@@ -27,7 +27,7 @@ public class KafkaConfig {
     private String bootstrapServers;
 
     /**
-     * <h2>Kafka Producer 工厂类配置</h2>
+     * Kafka Producer 工厂类配置
      * */
     @Bean
     public ProducerFactory<String, String> producerFactory() {
@@ -41,7 +41,7 @@ public class KafkaConfig {
     }
 
     /**
-     * <h2>Kafka Producer 客户端</h2>
+     * Kafka Producer 客户端
      * */
     @Bean
     public KafkaTemplate<String, String> kafkaTemplate() {
@@ -49,7 +49,7 @@ public class KafkaConfig {
     }
 
     /**
-     * <h2>Kafka Consumer 工厂类配置</h2>
+     * Kafka Consumer 工厂类配置
      * */
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {
@@ -64,7 +64,7 @@ public class KafkaConfig {
     }
 
     /**
-     * <h2>Kafka Consumer 监听器工厂类配置</h2>
+     * Kafka Consumer 监听器工厂类配置
      * */
     @Bean
     public ConcurrentKafkaListenerContainerFactory<String, String>

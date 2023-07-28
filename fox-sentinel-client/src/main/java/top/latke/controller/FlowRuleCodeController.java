@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import top.latke.block_handler.AdminBlockHandler;
 import top.latke.vo.CommonResponse;
 
 import javax.annotation.PostConstruct;
@@ -53,7 +54,8 @@ public class FlowRuleCodeController {
      */
     @GetMapping("/flow-rule")
 //    @SentinelResource(value = "flowRuleCode")
-    @SentinelResource(value = "flowRuleCode", blockHandler = "handleException")
+//    @SentinelResource(value = "flowRuleCode", blockHandler = "handleException")
+    @SentinelResource(value = "flowRuleCode", blockHandler = "adminHandlerBlockException",blockHandlerClass = AdminBlockHandler.class)
     public CommonResponse<String> flowRuleCode(){
         log.info("request flowRuleCode");
         return new CommonResponse<>(0,"","fox-cloud");

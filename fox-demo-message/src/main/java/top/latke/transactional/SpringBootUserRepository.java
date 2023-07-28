@@ -3,7 +3,7 @@ package top.latke.transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * <h1>JpaSpringBootUser Dao 接口定义</h1>
+ * JpaSpringBootUser Dao 接口定义
  * */
 public interface SpringBootUserRepository extends JpaRepository<JpaSpringBootUser, Integer> {
 }

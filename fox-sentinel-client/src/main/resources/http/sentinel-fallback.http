@@ -1,5 +1,5 @@
 ### 获取 token
-POST 127.0.0.1:8100/ecommerce-sentinel-client/sentinel-fallback/get-token
+POST 127.0.0.1:8100/fox-sentinel-client/sentinel-fallback/get-token
 Content-Type: application/json
 
 {
@@ -8,5 +8,5 @@ Content-Type: application/json
 }
 
 ### 忽略异常
-GET 127.0.0.1:8100/ecommerce-sentinel-client/sentinel-fallback/ignore-exception?code=2
+GET 127.0.0.1:8100/fox-sentinel-client/sentinel-fallback/ignore-exception?code=2
 Content-Type: application/json

@@ -9,7 +9,7 @@ import top.latke.rocket.RocketMQProducer;
 import top.latke.vo.QinyiMessage;
 
 /**
- * <h1>SpringBoot 集成 RocketMQ</h1>
+ * SpringBoot 集成 RocketMQ
  * */
 @Slf4j
 @RestController
