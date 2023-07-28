@@ -1,9 +1,11 @@
 package top.latke.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
+import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -50,9 +52,24 @@ public class FlowRuleCodeController {
      * @return
      */
     @GetMapping("/flow-rule")
-    @SentinelResource(value = "flowRuleCode")
+//    @SentinelResource(value = "flowRuleCode")
+    @SentinelResource(value = "flowRuleCode", blockHandler = "handleException")
     public CommonResponse<String> flowRuleCode(){
         log.info("request flowRuleCode");
         return new CommonResponse<>(0,"","fox-cloud");
+    }
+
+    /**
+     * 当限流异常抛出时，指定调用的方法，是一个兜底策略
+     * @param exception
+     * @return
+     */
+    public CommonResponse<String> handleException(BlockException exception) {
+        log.error("has block exception: [{}]", JSON.toJSONString(exception.getRule()));
+        return new CommonResponse<>(
+                -1,
+                "flow rule exception",
+                exception.getClass().getCanonicalName()
+        );
     }
 }
