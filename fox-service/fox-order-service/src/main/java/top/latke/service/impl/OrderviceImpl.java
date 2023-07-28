@@ -126,7 +126,7 @@ public class OrderviceImpl implements IOrderService {
         if (!logisticsSource.logisticsOutput().send(MessageBuilder.withPayload(JSON.toJSONString(logisticsMessage)).build())) {
             throw new RuntimeException("send logistics message failure");
         }
-        log.info("send create order message to kafka with strean: [{}]",JSON.toJSONString(logisticsMessage));
+        log.info("send create order message to kafka with stream: [{}]",JSON.toJSONString(logisticsMessage));
         //返回订单id
         return new TableId(Collections.singletonList(new TableId.Id(newOrder.getId())));
     }
