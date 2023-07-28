@@ -11,6 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 public class FoxGatewayClientApplication {
     public static void main(String[] args) {
+        System.setProperty("csp.sentinel.app.type","1");
         SpringApplication.run(FoxGatewayClientApplication.class,args);
     }
 

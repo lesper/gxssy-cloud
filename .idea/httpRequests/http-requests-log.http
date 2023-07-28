@@ -1,3 +1,15 @@
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T210742.503.json
+
+###
+
 GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
 token: fox
@@ -583,18 +595,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-07-28T200808.429.json
-
-###
-
-GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/project-config
-Content-Type: application/json
-token: fox
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T200734.429.json
 
 ###
 
