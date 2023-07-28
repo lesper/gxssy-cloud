@@ -1,571 +1,600 @@
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170445.200.json
+<> 2023-07-28T205359.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170444.200.json
+<> 2023-07-28T205358.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170309.200.json
+<> 2023-07-28T205357.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170308-1.200.json
+<> 2023-07-28T205239.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170308.200.json
+<> 2023-07-28T205005.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170307.200.json
+<> 2023-07-28T204116.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170306.200.json
+<> 2023-07-28T204115-1.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170305.200.json
+<> 2023-07-28T204115.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170304.200.json
+<> 2023-07-28T204114.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170303.200.json
+<> 2023-07-28T204113.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170239-1.200.json
+<> 2023-07-28T204112.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170239.200.json
+<> 2023-07-28T204110.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-url
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170008.200.json
+<> 2023-07-28T204109.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/dashboard/by-resource
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T170006.200.json
+<> 2023-07-28T204106-1.503.json
 
 ###
 
-GET http://127.0.0.1:8100/ecommerce-sentinel-client/dashboard/by-resource
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T165955.404.html
+<> 2023-07-28T204106.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164623-1.200.json
+<> 2023-07-28T204102.503.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164623.200.json
+<> 2023-07-28T203258.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164622.200.json
+<> 2023-07-28T202155.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164224.200.json
+<> 2023-07-28T202108.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164223.200.json
+<> 2023-07-28T201842.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164222.200.json
+<> 2023-07-28T201511.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164219.200.json
+<> 2023-07-28T201510-1.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164217.200.json
+<> 2023-07-28T201510.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164216.200.json
+<> 2023-07-28T201509.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164215.200.json
+<> 2023-07-28T201508.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164015.200.json
+<> 2023-07-28T201507.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164014.200.json
+<> 2023-07-28T201506.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164006.200.json
+<> 2023-07-28T201505-1.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164004.200.json
+<> 2023-07-28T201505.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164003.200.json
+<> 2023-07-28T201504.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T164002.200.json
+<> 2023-07-28T201503.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163844.200.json
+<> 2023-07-28T201448.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163648.200.json
+<> 2023-07-28T201446.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163423.200.json
+<> 2023-07-28T201443.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163152.200.json
+<> 2023-07-28T201429.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163136.200.json
+<> 2023-07-28T201425.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163135.200.json
+<> 2023-07-28T201423.200.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163134.200.json
+<> 2023-07-28T201411.429.json
 
 ###
 
-GET http://127.0.0.1:8100/fox-sentinel-client/code/flow-rule
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/service-instance?serviceId=fox-gateway
 Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-07-28T163133.200.json
+<> 2023-07-28T201403.429.json
 
 ###
 
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T041132.200.json
+<> 2023-07-28T201402.429.json
 
 ###
 
-GET http://127.0.0.1:9001/fox/fox-order-service/order/order-detail?page=1
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T040924.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T040913.200.json
+<> 2023-07-28T201243.200.json
 
 ###
 
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T040131.200.json
+<> 2023-07-28T201242.200.json
 
 ###
 
-GET http://127.0.0.1:9001/fox/fox-order-service/order/order-detail?page=1
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T035037.200.json
-
-###
-
-GET http://127.0.0.1:9001/fox/fox-order-service/order/order-detail?page=33
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T035027.200.json
-
-###
-
-GET http://127.0.0.1:9001/fox/fox-order-service/order/order-detail?page=2
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T035017.200.json
-
-###
-
-GET http://127.0.0.1:9001/fox/fox-order-service/order/order-detail?page=2
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T035016.200.json
-
-###
-
-GET http://127.0.0.1:9001/fox/fox-order-service/order/order-detail?page=2
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-07-28T035014.200.json
-
-###
-
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
-
-<> 2023-07-28T035000.200.json
+<> 2023-07-28T201235.200.json
 
 ###
 
-POST http://127.0.0.1:9001/fox/fox-order-service/order/create-order
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
 Content-Type: application/json
-Accept: application/json
-fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJmMmRkNjlhOS01ZjllLTQxNjItYTlkZS1mYmY2MTgxM2ZjMTYiLCJleHAiOjE2OTA1NjAwMDB9.faJ9_r3NsQlgkeJP9PehGyqrH1UHkOnscM0xFgQnXu3538DKSbgV3Ng91R6F6bJKz2huGyasS7fnD6dGCTfQTy2_O6fWsRArvmckM0S9D4U1YZKa7lzswvT5MzqOYM1EokGKtCBNtBWNYD3xvjKXcU9c3wbpDxu_3dJ5K-lAG04-dxbGo5gtNqUzLQdcOUgh7LevWeXueKPf0JvQsiNjTY4wIiibFMqaipwbN6cy_Mh41qn9-i8t_tBWvOzls0c107HL9FN47BtAG7oxnwF8yrWbuT-mMzWRLG2U7P5EQ-4x0zLWJTM-rLavtOvC6sePcts1YLYrZw5TWQ3u5c5sYA
-Content-Length: 96
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "userAddress": 10,
-  "orderItems": [
-    {
-      "goodsId": 10,
-      "count": 5
-    }
-  ]
-}
+<> 2023-07-28T201200.429.json
 
-<> 2023-07-28T034039.200.json
+###
+
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T201158.429.json
+
+###
+
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T201157.429.json
+
+###
+
+GET http://127.0.0.1:9001/fox/fox-nacos-client/sleuth/trace-info
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T201150.200.json
+
+###
+
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/project-config
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T201004.404.json
+
+###
+
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/project-config
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T200808.429.json
+
+###
+
+GET http://127.0.0.1:9001/fox/fox-nacos-client/nacos-client/project-config
+Content-Type: application/json
+token: fox
+fox-user: eyJhbGciOiJSUzI1NiJ9.eyJmb3gtdXNlciI6IntcImlkXCI6MTAsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIn0iLCJqdGkiOiJhNzFlYzBmYy1iODQwLTQ3NzktYjkyMi1lMDhkMDEzYTNiMjgiLCJleHAiOjE2OTA1NjAwMDB9.nb_168g-gJg5MIQRJyjUKHqICdfuKa-g9otqs0K_nrdOCgxWeKKg4ONI3R_PMm8Be8AEEmPi-pJi9EmHE7GsVfyM0Z5VpBLk121mBg2et1KM-5DKL79woF776FzRZsSVD7MrQgUxROtf0uKf_NiOJQeEYrUAQb6dEDINO4CpjIuWvaClXtOKimaBXpwbxBdwuy0Kb_a64U9p2uDp7ROh4XRQgFEtU0qIxobEQ1r-AhFWgrG2lg15RXXVaHpd5xmNkm4vAzpxMo6NCQ26xRCwv8u2xJ0e7_Nkp6NilCwfYXCQt1MmaTlSmd5HJkK0XJwhnx3umRwvLM9uwZSmg_gSqA
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-28T200734.429.json
 
 ###
 

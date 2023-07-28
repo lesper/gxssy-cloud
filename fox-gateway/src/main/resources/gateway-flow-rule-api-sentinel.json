@@ -1,0 +1,14 @@
+[
+  {
+    "apiName": "nacos-client-api",
+    "predicateItems": [
+      {
+        "pattern": "/fox/fox-nacos-client/nacos-client/project-config"
+      },
+      {
+        "pattern": "/fox/fox-nacos-client/**",
+        "matchStrategy": 1
+      }
+    ]
+  }
+]
